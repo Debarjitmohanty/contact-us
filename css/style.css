@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .bi{
+    font-size: 50px !important;
+}
+.bi:hover{
+   color: #0d6efd!important;
+}
+.card{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.bg-primary {
+    color: white;
+    top: -142px;
+    height: 80vh;
+}
+.card-row{
+    position: relative;
+    top: 110px;
+}
+.back-container{
+ 
+    position: relative;
+    top: 100px;
+}
+.btn-primary{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.form-control{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    border-radius: 0;
+    }
+
+
+    .text-contact{
+        font-size: 40px;
+    }
+.border-danger{
+    border-color: aliceblue !important;
+}
+    @media only screen and (max-width: 600px) {
+        .bg-primary{
+            height: 150vh !important;
+        }
+      }
